@@ -1,4 +1,4 @@
-### Example of validate form data
+### Example of event handle and validate form data
 
 ```html
 <!DOCTYPE html>
