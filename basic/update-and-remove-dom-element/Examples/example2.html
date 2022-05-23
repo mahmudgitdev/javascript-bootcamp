@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+<style>
+   body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .result {
+      font-size: 20px;
+      font-weight: 500;
+      color: rebeccapurple;
+   }
+</style>
+</head>
+<body>
+<h1>Update DOM JavaScript</h1>
+<div style="color: green;" class="result"></div>
+<button class="Btn">CLICK HERE</button>
+<h3>Click on the above button to create a new element</h3>
+<script>
+   let resEle = document.querySelector(".result");
+   let heading = document.createElement("h3");
+   document.querySelector(".Btn").addEventListener("click", () => {
+      let headingText = document.createTextNode("This is a random heading");
+      heading.appendChild(headingText);
+      resEle.appendChild(heading);
+   });
+</script>
+</body>
+</html>
