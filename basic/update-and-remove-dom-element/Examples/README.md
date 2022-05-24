@@ -1,6 +1,4 @@
-### সকল উদাহরন এই ফোল্ডারে দেখা যাবে।
-
-### Changing dom element
+#### Changing the dom element
 
 ```html
 <!DOCTYPE html>
@@ -19,7 +17,7 @@
 </html>
 ```
 
-### Update DOM
+#### Updating the DOM element
 
 ```html
 <!DOCTYPE html>
@@ -56,8 +54,6 @@
   </body>
 </html>
 ```
-
-### Update dom element
 
 ```js
 element.innerHTML = "<p>read this</p>"; //Change the inner HTML of an element
